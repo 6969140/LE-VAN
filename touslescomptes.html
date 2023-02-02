@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Compte Personnel de Banque</title>
+    <style>
+      .account-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        margin-top:100px;
+        margin-bottom:200px;
+      }
+
+      .account-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: lightgray;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      .account-name {
+        font-size: 1.5em;
+        margin-top: 20px;
+      }
+
+      .account-balance {
+        font-size: 1.5em;
+        margin-top: 20px;
+      }
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+
+      h1{
+        text-align: center;
+      }
+
+    
+
+      .button{
+        background-color: #4CAF50;
+        border: none;
+        color: black;
+        padding: 20px;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: lightgray;
+        padding: 20px;
+        border-radius: 10px;
+        transition-duration: 0.4s;
+      }
+
+      .button:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 14px 18px 0 rgba(0,0,0,0.19);
+      }
+
+    </style>
+
+  </head>
+  <body>
+<h1>Mes comptes</h1>
+<br>
+
+      <div class="account-container">
+      <a href="comptes.php" class="button"><div class="account-name"><b>Compte courant</b></div><br>
+        <div class="account-name">LE VAN Pierric</div>
+        <div class="account-balance">Solde : 2 000 €</div>
+      </a>
+      </div>
+
+      <div class="account-container">
+        <a href="comptes.php" class="button"><div class="account-name"><b>Compte épargne</b></div><br>
+          <div class="account-name">LE VAN Pierric</div>
+          <div class="account-balance">Solde : 50 000 €</div>
+        </a>
+        </div>
+
+  </body>
+</html>
